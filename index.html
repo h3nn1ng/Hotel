@@ -22,19 +22,23 @@
   <!-- Custom styles for this template -->
   <!-- <link href="carousel.css" rel="stylesheet" type="text/css"> -->
   <style>
-    /* GLOBAL STYLES
--------------------------------------------------- */
-    /* Padding below the footer and lighter body text */
+    /* GLOBAL STYLES */
 
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Padding below the footer and lighter body text */
     body {
       padding-top: 3rem;
-      padding-bottom: 3rem;
       color: #5a5a5a;
     }
 
+    .align-minus-2-px {
+      vertical-align: -2px;
+    }
 
-    /* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+    /* CUSTOMIZE THE CAROUSEL */
 
     /* Carousel base class */
     .carousel {
@@ -60,9 +64,7 @@
       height: 32rem;
     }
 
-
-    /* MARKETING CONTENT
--------------------------------------------------- */
+    /* MARKETING CONTENT */
 
     /* Center align the text within the three columns below the carousel */
     .marketing .col-lg-4 {
@@ -80,12 +82,11 @@
     }
 
 
-    /* Featurettes
-------------------------- */
+    /* Featurettes */
 
+    /* Space out the Bootstrap <hr> more */
     .featurette-divider {
       margin: 5rem 0;
-      /* Space out the Bootstrap <hr> more */
     }
 
     /* Thin out the marketing headings */
@@ -95,10 +96,7 @@
       letter-spacing: -.05rem;
     }
 
-
-    /* RESPONSIVE CSS
--------------------------------------------------- */
-
+    /* RESPONSIVE CSS */
     @media (min-width: 40em) {
 
       /* Bump up size of carousel content */
@@ -146,38 +144,43 @@
       <div class="container-fluid">
 
         <a class="navbar-brand" href="#">
-          <img src="images/Hotel-Bairischer-Hof-Logo.svg" width="auto" height="60" alt="Hotel Bairischer Hof Logo" loading="lazy">
+          <img src="images/Hotel-Bairischer-Hof-Logo.svg" width="auto" height="60" alt="Hotel Bairischer Hof Logo"
+            loading="lazy">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="align-minus-2-px">Menü</span>
+          <span class="navbar-toggler-icon align-middle"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto mb-2 mb-md-0 ml-md-4 align-items-center">
-            <li class="nav-item mr-md-3">
+          <ul class="navbar-nav mr-auto my-3 my-md-0 ml-3 ml-md-4 align-items-md-center">
+            <li class="nav-item mr-md-3 mb-3 mb-md-0">
               <!-- <a class="nav-link" href="#">Zimmer&nbsp;buchen</a> -->
               <a class="btn btn-lg btn-primary" href="#" role="button">Zimmer buchen</a>
             </li>
-            <li class="nav-item dropdown mr-md-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item dropdown mr-md-3 mb-2 mb-md-0">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
                 Garlerie
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Zimmer</a></li>
-                <li><a class="dropdown-item" href="#">Fürstenzimmer</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Unser Hotel</a></li>
-                <li><a class="dropdown-item" href="#">Festsaal</a></li>
-                <li><a class="dropdown-item" href="#">Postkeller</a></li>
-                <li><a class="dropdown-item" href="#">Leckeres aus unserer Konditorei</a></li>
+              <ul class="dropdown-menu mb-2 mb-md-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item mb-2 mb-md-0" href="#">Zimmer</a></li>
+                <li><a class="dropdown-item my-2 mb-md-0" href="#">Fürstenzimmer</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item my-2 mb-md-0" href="#">Unser Hotel</a></li>
+                <li><a class="dropdown-item my-2 mb-md-0" href="#">Festsaal</a></li>
+                <li><a class="dropdown-item my-2 mb-md-0" href="#">Postkeller</a></li>
+                <li><a class="dropdown-item mt-2 mb-md-0" href="#">Leckeres aus unserer Konditorei</a></li>
               </ul>
             </li>
-            <li class="nav-item mr-md-3">
+            <li class="nav-item mr-md-3 mb-2 mb-md-0">
               <a class="nav-link" href="#">Anfahrt</a>
             </li>
-            <li class="nav-item mr-md-3">
+            <li class="nav-item mr-md-3 mb-2 mb-md-0">
               <a class="nav-link" href="#">Kontakt</a>
             </li>
           </ul>
@@ -369,17 +372,68 @@
 
     </div><!-- /.container -->
 
+    <div class=container>
+      <h2>Überschrift h2</h2>
+      <p class="lead">Ein großer einleitender Satz zum folgenden Labertext.</p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </div>
 
     <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <footer class="text-muted bg-light py-5 mt-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <p class="lead">Hotel Bairischer Hof</p>
+
+            <p class="lh-lg">
+              Markt 40-42 (für Anreisen vom Bahnhof) <br>
+              Leopoldstr. 25 (Parkplatz) <br>
+              95615 Marktredwitz
+            </p>
+
+            <p class="lh-lg">
+              Telefon: <a href="tel:info@bairischer-hof.de" class="text-decoration-none">09231 12334</a> <br>
+              Fax: <a href="tel:info@bairischer-hof.de" class="text-decoration-none">09231 12334</a> <br>
+              E-Mail: <a href="mailto:info@bairischer-hof.de" class="text-decoration-none">info@bairischer-hof.de</a>
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <nav class="nav flex-column">
+              <!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+              <a class="nav-link" href="#">Datenschutz</a>
+              <a class="nav-link" href="#">Impressum</a>
+            </nav>
+          </div>
+
+          <!-- <div class="col-md-4">
+            <p class="lead">follow us auf sociakemdia</p>
+            <p>icon1 </p>
+            <p>icon 2</p>
+            <p>icon 3</p>
+          </div> -->
+
+          <div class="col d-flex flex-row-reverse">
+            <a href="#" title="Zum Anfang der Seite scrollen">
+              <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill"
+                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-10.646.354a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.207V11a.5.5 0 0 1-1 0V6.207L5.354 8.354z" />
+              </svg>
+            </a>
+          </div>
+
+        </div>
     </footer>
   </main>
 
-
   <script src="js/bootstrap.bundle.js"></script>
-
 </body>
 
 </html>
