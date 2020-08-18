@@ -1,0 +1,23 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "Hotel-Website mit Bootstrap 5 (https://v5.getbootstrap.com)",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3nn1ng/Hotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h3nn1ng/Hotel/issues"
+  },
+  "homepage": "https://github.com/h3nn1ng/Hotel#readme"
+}
