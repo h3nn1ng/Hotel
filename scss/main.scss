@@ -4,6 +4,14 @@
 // und die Reihenfolge, in der Bootstrap den Import vorsieht
 // Nach dieser Vorlage wurden folgende Import-Anweisungen erstellt.
 
+// Alles verwenden -> 10775 Zeilen CSS-Code 
+
+// Test
+// $body-bg: #000;
+// $body-color: #111;
+
+$blue: #0178ba;
+
 // Required
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -45,5 +53,3 @@
 
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
-
-// Alles verwenden -> 10775 Zeilen CSS-Code
