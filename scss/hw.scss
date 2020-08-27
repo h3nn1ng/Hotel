@@ -2,16 +2,21 @@
 
     html {
         scroll-behavior: smooth;
+
+        @include media-breakpoint-up(md) {
+          font-size: 1234 px !important;
+        }
+
       }
   
       /* Padding below the footer and lighter body text */
       body {
-        padding-top: 5.4rem;
         color: #5a5a5a;
       }
   
-      .align-minus-2-px {
-        vertical-align: -2px;
+      // Brand
+      #logo {
+        width: 100px;
       }
   
       /* MARKETING CONTENT */
